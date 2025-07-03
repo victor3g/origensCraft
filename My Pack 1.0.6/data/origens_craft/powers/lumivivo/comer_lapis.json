@@ -1,0 +1,41 @@
+{
+    "name": "Comer Lápis-Lazúli",
+    "description": "Você pode consumir Lápis-Lazúli para se alimentar.",
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    },
+    "cooldown": 32,
+    "hud_render": {
+        "should_render": false
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:lapis_lazuli"
+            }
+        }
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:feed",
+                "food": 4,
+                "saturation": 0.8
+            },
+            {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:consume",
+                    "amount": 1
+                }
+            }
+        ]
+    }
+}

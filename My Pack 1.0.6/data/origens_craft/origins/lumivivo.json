@@ -10,7 +10,8 @@
         "origens_craft:lumivivo/corpo_de_antimateria",
         "origens_craft:lumivivo/dieta_cosmica",
         "origens_craft:lumivivo/desconexao_terrena",
-        "origens_craft:lumivivo/aversao_superficie"
+        "origens_craft:lumivivo/aversao_superficie",
+        "origens_craft:lumivivo/comer_lapis" 
     ],
     "icon": {
         "item": "minecraft:amethyst_shard"
