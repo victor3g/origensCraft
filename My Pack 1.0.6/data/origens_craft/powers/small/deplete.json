@@ -1,0 +1,66 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "resistance": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "origens_craft:small/killbar",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:resource",
+                    "resource": "origens_craft:small/midasbar",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 40,
+        "tick_rate": 10,
+        "effect": {
+            "effect": "resistance",
+            "duration": 40,
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    },
+    "deplete": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "origens_craft:small/killbar",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origens_craft:small/midasbar",
+                    "comparison": ">",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "origens_craft:small/midasbar",
+            "modifier": {
+                "operation": "addition",
+                "value": -1
+            }
+        }
+    }
+}

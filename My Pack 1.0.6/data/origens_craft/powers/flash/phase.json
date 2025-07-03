@@ -1,0 +1,23 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "origens_craft:flash/toggle"
+    },
+    "type": "origins:phasing",
+    "block_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:in_tag",
+                "tag": "minecraft:leaves"
+            },
+            {
+                "type": "origins:in_tag",
+                "tag": "minecraft:logs"
+            }
+        ]
+    },
+    "render_type": "none",
+    "view_distance": 10
+}

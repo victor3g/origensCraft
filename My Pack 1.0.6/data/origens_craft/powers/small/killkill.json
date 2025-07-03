@@ -1,0 +1,33 @@
+{
+    "hidden": true,
+    "condition": {
+        "inverted": true,
+        "type": "origins:resource",
+        "resource": "origens_craft:small/midasbar",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:modify_resource",
+                "resource": "origens_craft:small/yellowbar",
+                "modifier": {
+                    "operation": "set_total",
+                    "value": 0
+                }
+            },
+            {
+                "type": "origins:modify_resource",
+                "resource": "origens_craft:small/killbar",
+                "modifier": {
+                    "operation": "set_total",
+                    "value": 0
+                }
+            }
+        ]
+    }
+}

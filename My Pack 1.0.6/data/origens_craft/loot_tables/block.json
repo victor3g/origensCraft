@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.005
+                                }
+                            ],
+                            "type": "minecraft:empty"
+                        },
+                        {
+                            "type": "minecraft:loot_table",
+                            "name": "apoli:replaced_loot_table"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

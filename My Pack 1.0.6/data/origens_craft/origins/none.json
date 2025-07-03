@@ -1,0 +1,9 @@
+{
+    "name": "Nada",
+    "description": "Minha origem não está aqui...",
+    "powers": [
+        "origens_craft:nothing"
+    ],
+    "order": 1,
+    "impact": 0
+}

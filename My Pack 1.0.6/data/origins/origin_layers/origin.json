@@ -1,0 +1,17 @@
+{
+    "origins": [
+        "origens_craft:none",
+        "origens_craft:astral",
+        "origens_craft:builder",
+        "origens_craft:explorer",
+        "origens_craft:fairy",
+        "origens_craft:flower",
+        "origens_craft:small_guy",
+        "origens_craft:tank",
+        "origens_craft:villager",
+        "origens_craft:flash",
+        "origens_craft:miner"
+    ],
+    "enabled": true,
+    "replace": true
+}

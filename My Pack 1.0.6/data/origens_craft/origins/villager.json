@@ -1,0 +1,11 @@
+{
+    "name": "Péricles",
+    "description": "Villager",
+    "powers": [
+        "origens_craft:nothing"
+    ],
+    "icon": {
+        "item": "minecraft:emerald"
+    },
+    "impact": 0
+}

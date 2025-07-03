@@ -1,0 +1,26 @@
+{
+    "name": "Deslizando sem parar",
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:power_active",
+                "power": "origens_craft:flash/toggle"
+            },
+            {
+                "inverted": true,
+                "type": "origins:on_block",
+                "block_condition": {
+                    "type": "origins:in_tag",
+                    "tag": "minecraft:ice"
+                }
+            }
+        ]
+    },
+    "type": "origins:modify_slipperiness",
+    "modifier": {
+        "operation": "set_base",
+        "value": 1.09
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Wicked coin",
+    "description": "\"Tamanho não é documento\"\n\"alguma coisa alguma coisa Soulslike\"",
+    "powers": [
+        "origens_craft:small/armor",
+        "origens_craft:small/deplete",
+        "origens_craft:small/greed",
+        "origens_craft:small/health",
+        "origens_craft:small/killbar",
+        "origens_craft:small/killkill",
+        "origens_craft:small/luck",
+        "origens_craft:small/midas",
+        "origens_craft:small/midasbar",
+        "origens_craft:small/regen",
+        "origens_craft:small/size",
+        "origens_craft:small/yellow",
+        "origens_craft:small/yellowbar",
+        "origens_craft:small/goldbar",
+        "origens_craft:small/goldblock",
+        "origens_craft:small/gamble"
+    ],
+    "icon": {
+        "item": "minecraft:gold_nugget"
+    },
+    "impact": 3
+}

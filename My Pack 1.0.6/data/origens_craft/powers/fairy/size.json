@@ -1,0 +1,36 @@
+{
+    "name": "Pequeno",
+    "description": "Você possui 1 bloco de altura.",
+    "type": "origins:action_on_callback",
+    "execute_chosen_when_orb": true,
+    "entity_action_lost": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "/scale reset @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "/scale persist reset @s"
+            }
+        ]
+    },
+    "entity_action_added": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "/scale set pehkui:base 0.5 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "/scale set pehkui:motion 2 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "/scale persist true @s"
+            }
+        ]
+    }
+}

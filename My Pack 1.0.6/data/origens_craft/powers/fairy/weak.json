@@ -1,0 +1,11 @@
+{
+    "name": "Fraco",
+    "description": "Você possui -2 de dano em ataques.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": -2
+    },
+    "update_health": true
+}

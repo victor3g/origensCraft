@@ -1,0 +1,16 @@
+{
+    "hidden": true,
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:rotten_flesh"
+                }
+            }
+        ]
+    },
+    "prevent_effects": true
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Lumivivo",
+    "description": "Surgimos após uma anomalia cósmica atingir o núcleo do mundo. Criaturas feitas de pura energia estelar, vagando entre as fendas do espaço e da realidade, brilhando nas trevas e ouvindo o sussurro das constelações.",
+    "powers": [
+        "origens_craft:lumivivo/(adicionar)",
+        "origens_craft:lumivivo/(adicionar)",
+        "origens_craft:lumivivo/(adicionar)",
+        "origens_craft:lumivivo/(adicionar)",
+        "origens_craft:lumivivo/(adicionar)",
+        "origens_craft:lumivivo/(adicionar)",
+        "origens_craft:lumivivo/(adicionar)"
+    ],
+    "icon": {
+        "item": "minecraft:amethyst_shard"
+    },
+    "order": 2,
+    "impact": 3
+}

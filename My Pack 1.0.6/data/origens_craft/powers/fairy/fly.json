@@ -1,0 +1,13 @@
+{
+    "name": "Voar",
+    "description": "Você pode voar quando em céu aberto.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sky"
+            }
+        ]
+    },
+    "type": "origins:creative_flight"
+}

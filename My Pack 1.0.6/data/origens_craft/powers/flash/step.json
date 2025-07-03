@@ -1,0 +1,32 @@
+{
+    "name": "Stepp",
+    "hidden": true,
+    "type": "origins:multiple",
+    "reset": {
+        "type": "origins:action_on_callback",
+        "execute_chosen_when_orb": true,
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "scale reset @s"
+        }
+    },
+    "give": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:power_active",
+                "power": "origens_craft:flash/toggle"
+            },
+            "if_action": {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:step_height 4 @s"
+            },
+            "else_action": {
+                "type": "origins:execute_command",
+                "command": "scale reset @s"
+            }
+        }
+    }
+}

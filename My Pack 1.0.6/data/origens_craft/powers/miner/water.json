@@ -1,0 +1,24 @@
+{
+    "name": "Mal Nadador",
+    "description": "Você afunda na água, sendo incapaz de nadar.",
+    "type": "origins:multiple",
+    "slow": {
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">=",
+            "compare_to": 1
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": -0.03
+        },
+        "tick_rate": 20,
+        "update_health": false
+    },
+    "ignore": {
+        "type": "origins:ignore_water"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "No armor",
+    "description": "or shield",
+    "hidden": true,
+    "type": "origins:restrict_armor",
+    "head": {
+        "inverted": true,
+        "type": "origins:empty"
+    },
+    "chest": {
+        "inverted": true,
+        "type": "origins:empty"
+    },
+    "legs": {
+        "inverted": true,
+        "type": "origins:empty"
+    },
+    "feet": {
+        "inverted": true,
+        "type": "origins:empty"
+    }
+}

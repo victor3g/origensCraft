@@ -1,0 +1,14 @@
+{
+    "name": "Coletor",
+    "description": "Você quebra blocos mais rápido em sua forma normal.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:power_active",
+        "power": "origens_craft:builder/toggle"
+    },
+    "type": "origins:modify_break_speed",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.2
+    }
+}

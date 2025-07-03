@@ -1,0 +1,10 @@
+{
+    "name": "Sem Identidade",
+    "description": "Aqui um bônus de +25% de xp até sua origem ficar pronta.",
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.25,
+        "name": "Vazio"
+    }
+}

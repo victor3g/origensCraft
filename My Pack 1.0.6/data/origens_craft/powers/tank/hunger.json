@@ -1,0 +1,10 @@
+{
+    "name": "Faminto",
+    "description": "Você precisa comer mais que o normal.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1,
+        "name": "Faminto"
+    }
+}

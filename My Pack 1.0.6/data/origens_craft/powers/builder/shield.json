@@ -1,0 +1,11 @@
+{
+    "name": "Armadura Natural",
+    "description": "Você tem armadura natural equivalente a cota de malha, e não pode equipar armaduras ou escudo.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:shield"
+        }
+    }
+}

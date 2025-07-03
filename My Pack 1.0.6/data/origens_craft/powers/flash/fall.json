@@ -1,0 +1,9 @@
+{
+    "name": "Imune a queda",
+    "description": "Você não recebe danos de queda",
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    }
+}

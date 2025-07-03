@@ -1,0 +1,11 @@
+{
+    "name": "Fracote",
+    "description": "Meu foco não é lutar, meus ataques são mais fracos, e eu sou mais frágil.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -2
+    },
+    "update_health": true
+}

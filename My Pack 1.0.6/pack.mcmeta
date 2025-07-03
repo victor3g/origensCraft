@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "name": "My Pack",
+        "id": "origens_craft",
+        "pack_format": 15,
+        "version": "1.0.6",
+        "description": ""
+    }
+}

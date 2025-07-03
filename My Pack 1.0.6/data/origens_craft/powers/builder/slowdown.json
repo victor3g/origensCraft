@@ -1,0 +1,23 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "origens_craft:builder/toggle"
+    },
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:slowness",
+                "duration": 60,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": true,
+                "show_icon": true
+            }
+        }
+    },
+    "cooldown": 1
+}

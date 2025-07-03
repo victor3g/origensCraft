@@ -1,0 +1,104 @@
+{
+    "name": "Gold affinity",
+    "type": "origins:multiple",
+    "golden_head_boost": {
+        "type": "extraorigins:modify_item_attribute",
+        "equipment_slot": "head",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "extraorigins:golden_armor"
+            }
+        },
+        "modifier": {
+            "name": "Origin modifier",
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 1
+        }
+    },
+    "golden_chest_boost": {
+        "type": "extraorigins:modify_item_attribute",
+        "equipment_slot": "chest",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "extraorigins:golden_armor"
+            }
+        },
+        "modifier": {
+            "name": "Origin modifier",
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 2
+        }
+    },
+    "golden_legs_boost": {
+        "type": "extraorigins:modify_item_attribute",
+        "equipment_slot": "legs",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "extraorigins:golden_armor"
+            }
+        },
+        "modifier": {
+            "name": "Origin modifier",
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 2
+        }
+    },
+    "golden_feet_boost": {
+        "type": "extraorigins:modify_item_attribute",
+        "equipment_slot": "feet",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "extraorigins:golden_armor"
+            }
+        },
+        "modifier": {
+            "name": "Origin modifier",
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 1
+        }
+    },
+    "golden_mainhand_boost": {
+        "type": "extraorigins:modify_item_attribute",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "extraorigins:golden_tools"
+            }
+        },
+        "modifier": {
+            "name": "Origin modifier",
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 2.5
+        }
+    },
+    "golden_armor_durability_multiplier": {
+        "type": "extraorigins:innate_unbreaking",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "extraorigins:golden_armor"
+            }
+        },
+        "level": 3
+    },
+    "golden_tool_durability_multiplier": {
+        "type": "extraorigins:innate_unbreaking",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "extraorigins:golden_tools"
+            }
+        },
+        "level": 15
+    }
+}

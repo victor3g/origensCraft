@@ -1,0 +1,10 @@
+{
+    "name": "Imune a queda",
+    "description": "Literalmente isso",
+    "hidden": true,
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    }
+}

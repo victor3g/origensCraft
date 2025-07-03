@@ -1,0 +1,19 @@
+{
+    "name": "Ganacioso",
+    "description": "Uma moeda não pode trocar sendo que ela em sí é a moeda de troca",
+    "type": "origins:prevent_entity_use",
+    "bientity_action": {
+        "type": "origins:actor_action",
+        "action": {
+            "type": "origins:execute_command",
+            "command": "title @s actionbar {\"text\": \"É meio irônico, né? Uma moeda trocando...\", \"color\": \"yellow\"}"
+        }
+    },
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:villager"
+        }
+    }
+}

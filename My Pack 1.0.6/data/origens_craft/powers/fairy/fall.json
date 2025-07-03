@@ -1,0 +1,9 @@
+{
+    "name": "Leve",
+    "description": "Você não recebe dano de queda.",
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    }
+}

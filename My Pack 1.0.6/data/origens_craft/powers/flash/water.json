@@ -1,0 +1,9 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "origens_craft:flash/toggle"
+    },
+    "type": "origins:walk_on_fluid",
+    "fluid": "minecraft:water"
+}

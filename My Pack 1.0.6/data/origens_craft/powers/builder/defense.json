@@ -1,0 +1,23 @@
+{
+    "name": "Defense",
+    "hidden": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "origens_craft:builder/toggle"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.armor",
+        "operation": "addition",
+        "value": 3
+    },
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 4
+        }
+    ],
+    "tick_rate": 20,
+    "update_health": true
+}

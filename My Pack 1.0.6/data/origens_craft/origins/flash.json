@@ -1,0 +1,19 @@
+{
+    "name": "Moisés",
+    "description": "My names Bari Alem",
+    "powers": [
+        "origens_craft:flash/toggle",
+        "origens_craft:flash/deslize",
+        "origens_craft:flash/nofall",
+        "origens_craft:flash/water",
+        "origens_craft:flash/step",
+        "origens_craft:flash/fall",
+        "origens_craft:flash/slow",
+        "origens_craft:flash/phase"
+    ],
+    "icon": {
+        "item": "minecraft:lightning_rod"
+    },
+    "order": 4,
+    "impact": 2
+}

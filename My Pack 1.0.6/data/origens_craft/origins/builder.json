@@ -1,0 +1,20 @@
+{
+    "name": "Big",
+    "description": "Golem construtor",
+    "powers": [
+        "origens_craft:builder/armor",
+        "origens_craft:builder/noarmor",
+        "origens_craft:builder/shield",
+        "origens_craft:builder/builder",
+        "origens_craft:builder/sack",
+        "origens_craft:builder/haste",
+        "origens_craft:builder/toggle",
+        "origens_craft:builder/defense",
+        "origens_craft:builder/slowdown"
+    ],
+    "icon": {
+        "item": "minecraft:iron_block"
+    },
+    "order": 1,
+    "impact": 2
+}

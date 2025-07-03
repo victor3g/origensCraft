@@ -1,0 +1,21 @@
+{
+    "name": "Bruto",
+    "description": "Você causa 2 a mais de dano físico, porém há chances de você quebrar algum bloco e não dropar por causa de sua força.",
+    "type": "origins:multiple",
+    "break": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "([a-z0-9_\\-]).*:blocks\\/.*": "origens_craft:block"
+        },
+        "priority": 0
+    },
+    "damage": {
+        "type": "origins:modify_damage_dealt",
+        "modifiers": [
+            {
+                "operation": "addition",
+                "value": 2
+            }
+        ]
+    }
+}

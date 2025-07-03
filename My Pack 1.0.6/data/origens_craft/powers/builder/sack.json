@@ -1,0 +1,9 @@
+{
+    "name": "Saquinho",
+    "description": "Você carrega um saquinho com 5 espaços a todo momento.",
+    "type": "origins:inventory",
+    "title": "Saquinho",
+    "container_type": "hopper",
+    "key": "secondary",
+    "recoverable": true
+}

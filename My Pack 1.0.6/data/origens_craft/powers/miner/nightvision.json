@@ -1,0 +1,6 @@
+{
+    "name": "Adaptado",
+    "description": "Você possui uma visão no escuro natural e não ganha o efeito de fome ao comer carne podre.",
+    "type": "origins:night_vision",
+    "strength": 0.5
+}

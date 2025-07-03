@@ -1,0 +1,15 @@
+{
+    "name": "Rafa",
+    "description": "Fadinha fadinha fadinha",
+    "powers": [
+        "origens_craft:fairy/size",
+        "origens_craft:fairy/fly",
+        "origens_craft:fairy/fall",
+        "origens_craft:fairy/weak"
+    ],
+    "icon": {
+        "item": "minecraft:glowstone_dust"
+    },
+    "order": 5,
+    "impact": 2
+}

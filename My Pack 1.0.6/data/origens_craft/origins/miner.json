@@ -1,0 +1,19 @@
+{
+    "name": "Isaac",
+    "description": "\"Minerador Forte\"",
+    "powers": [
+        "origens_craft:miner/brute",
+        "origens_craft:miner/haste",
+        "origens_craft:miner/nightvision",
+        "origens_craft:miner/iron",
+        "origens_craft:miner/copper",
+        "origens_craft:miner/gold",
+        "origens_craft:miner/water",
+        "origens_craft:miner/food"
+    ],
+    "icon": {
+        "item": "minecraft:stone_pickaxe"
+    },
+    "order": 2,
+    "impact": 2
+}

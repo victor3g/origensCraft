@@ -1,0 +1,27 @@
+{
+    "name": "Explorador",
+    "description": "Você possui velocidade e distância pulo aumentadas.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:speed",
+        "duration": 100,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    },
+    "effects": [
+        {
+            "effect": "minecraft:jump_boost",
+            "duration": 100,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ]
+}

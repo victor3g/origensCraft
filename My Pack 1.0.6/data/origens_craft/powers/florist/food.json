@@ -1,0 +1,10 @@
+{
+    "name": "Faminta",
+    "description": "De tanto construir, eu sinto mais fome.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1,
+        "name": "Faminta"
+    }
+}

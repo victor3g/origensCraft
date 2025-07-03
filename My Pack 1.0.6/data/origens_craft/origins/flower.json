@@ -1,0 +1,16 @@
+{
+    "name": "Flower",
+    "description": "Sou uma apreciadora de flores e plantações, além de gostar de construir e comer. Porém, lutar não é bem o meu forte.",
+    "powers": [
+        "origens_craft:florist/weak",
+        "origens_craft:florist/food",
+        "origens_craft:florist/bloom",
+        "origens_craft:florist/adrenaline",
+        "origens_craft:florist/violence"
+    ],
+    "icon": {
+        "item": "minecraft:poppy"
+    },
+    "order": 2,
+    "impact": 3
+}

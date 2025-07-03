@@ -1,0 +1,14 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "origens_craft:flash/toggle"
+    },
+    "type": "origins:modify_velocity",
+    "modifier": {
+        "operation": "add_base_early"
+    },
+    "axes": [
+        "y"
+    ]
+}

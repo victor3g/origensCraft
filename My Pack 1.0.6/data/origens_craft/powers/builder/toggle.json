@@ -1,0 +1,8 @@
+{
+    "name": "Modo de Defesa",
+    "description": "Você pode alternar para um modo de defesa, ganhando armadura e vida, mas perdendo seu buff de Coletor e seu alcance extra de Construtor. Além disso, você causa lentidão por 3 segundos quando acerta uma criatura nesse modo.",
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": "primary",
+    "retain_state": true
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Miguel",
+    "description": "Um simples explorador.",
+    "powers": [
+        "origens_craft:explorer/movement",
+        "origens_craft:explorer/bag",
+        "origens_craft:explorer/armor"
+    ],
+    "icon": {
+        "item": "minecraft:leather_boots"
+    },
+    "order": 3,
+    "impact": 2
+}

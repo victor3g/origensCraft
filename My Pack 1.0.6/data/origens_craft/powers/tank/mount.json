@@ -1,0 +1,32 @@
+{
+    "name": "Pesado",
+    "description": "Você não pode montar em mobs.",
+    "hidden": true,
+    "type": "origins:prevent_entity_use",
+    "bientity_action": {
+        "type": "origins:actor_action",
+        "action": {
+            "type": "origins:execute_command",
+            "command": "title @s actionbar {\"text\":\"Você é pesado demais!\",\"color\":\"dark_red\"}"
+        }
+    },
+    "bientity_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:pig"
+                }
+            },
+            {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:horse"
+                }
+            }
+        ]
+    }
+}

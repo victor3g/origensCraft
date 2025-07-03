@@ -1,0 +1,48 @@
+{
+    "name": "Adrenalina",
+    "description": "Eu posso acelerar minha velocidade temporariamente, mas é cansativo.",
+    "condition": {
+        "type": "origins:food_level",
+        "comparison": ">=",
+        "compare_to": 20
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:speed",
+                    "duration": 2400,
+                    "amplifier": 1,
+                    "is_ambient": true,
+                    "show_particles": false,
+                    "show_icon": true
+                }
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slowness",
+                        "duration": 1200,
+                        "amplifier": 0,
+                        "is_ambient": true,
+                        "show_particles": false,
+                        "show_icon": true
+                    }
+                },
+                "ticks": 2401
+            }
+        ]
+    },
+    "cooldown": 4800,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 23
+    },
+    "key": "primary"
+}

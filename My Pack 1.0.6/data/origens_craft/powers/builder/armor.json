@@ -1,0 +1,12 @@
+{
+    "name": "natural armor",
+    "description": "12 pontost (cota de malha completa)",
+    "hidden": true,
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.armor",
+        "operation": "addition",
+        "value": 12
+    },
+    "update_health": true
+}

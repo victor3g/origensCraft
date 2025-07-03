@@ -1,0 +1,59 @@
+{
+    "name": "Cara ou Coroa",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:choice",
+        "actions": [
+            {
+                "weight": 50,
+                "element": {
+                    "type": "origins:choice",
+                    "actions": [
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:area_of_effect",
+                                "radius": 16
+                            }
+                        },
+                        {
+                            "weight": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "weight": 50,
+                "element": {
+                    "type": "origins:choice",
+                    "actions": [
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:and",
+                                "actions": [
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "/tp @s ~ ~50 ~"
+                                    },
+                                    {
+                                        "type": "origins:execute_command",
+                                        "command": "/title @s title {\"text\":\"FALL\",\"color\":\"dark_red\"}"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "weight": 1
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": true
+    },
+    "key": "secondary"
+}

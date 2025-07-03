@@ -1,0 +1,9 @@
+{
+    "name": "Mochila",
+    "description": "Você carrega uma mochila de viagem com 9 espaços a todo momento.",
+    "type": "origins:inventory",
+    "title": "Mochila de Viagem",
+    "container_type": "dropper",
+    "key": "primary",
+    "recoverable": true
+}

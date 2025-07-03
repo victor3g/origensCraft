@@ -1,0 +1,17 @@
+{
+    "name": "Figueiredo",
+    "description": "Tank basicão.",
+    "powers": [
+        "origens_craft:tank/tank_stats",
+        "origens_craft:tank/jump",
+        "origens_craft:tank/fall",
+        "origens_craft:tank/hunger",
+        "origens_craft:tank/water",
+        "origens_craft:tank/mount"
+    ],
+    "icon": {
+        "item": "minecraft:shield"
+    },
+    "order": 1,
+    "impact": 3
+}

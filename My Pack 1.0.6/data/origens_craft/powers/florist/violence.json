@@ -1,0 +1,77 @@
+{
+    "name": "Cultivo Agressivo",
+    "description": "Quando eu mato uma criatura, uma flor nasce onde estou.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:in_block",
+                        "block_condition": {
+                            "type": "origins:block",
+                            "block": "minecraft:air"
+                        }
+                    },
+                    {
+                        "type": "origins:in_block",
+                        "block_condition": {
+                            "type": "origins:block",
+                            "block": "minecraft:grass"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "origins:on_block",
+                "block_condition": {
+                    "type": "origins:in_tag",
+                    "tag": "minecraft:dirt"
+                }
+            }
+        ]
+    },
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:choice",
+        "actions": [
+            {
+                "weight": 1,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "/setblock ~ ~ ~ minecraft:poppy"
+                }
+            },
+            {
+                "weight": 1,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "/setblock ~ ~ ~ minecraft:dandelion"
+                }
+            },
+            {
+                "weight": 1,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "/setblock ~ ~ ~ minecraft:cornflower"
+                }
+            },
+            {
+                "weight": 1,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "/setblock ~ ~ ~ minecraft:pink_tulip"
+                }
+            },
+            {
+                "weight": 1,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "/setblock ~ ~ ~ minecraft:oxeye_daisy"
+                }
+            }
+        ]
+    },
+    "cooldown": 1
+}

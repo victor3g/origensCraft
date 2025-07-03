@@ -1,0 +1,11 @@
+{
+    "name": "Daniel",
+    "description": "???",
+    "powers": [
+        "origens_craft:nothing"
+    ],
+    "icon": {
+        "item": "minecraft:grass_block"
+    },
+    "impact": 0
+}
