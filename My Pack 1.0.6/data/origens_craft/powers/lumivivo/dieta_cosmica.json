@@ -13,11 +13,11 @@
         },
         "food_modifier": {
             "operation": "multiply_base",
-            "value": -0.5
+            "value": -0.4
         },
         "saturation_modifier": {
             "operation": "multiply_base",
-            "value": -0.5
+            "value": -0.4
         }
     },
     "comida_magica": {

@@ -6,6 +6,11 @@
         "minecraft:enchanted_golden_apple",
         "minecraft:golden_carrot",
         "minecraft:cake",
-        "minecraft:lapis_lazuli"
+        "minecraft:lapis_lazuli",
+        "minecraft:glistering_melon_slice",
+        "minecraft:pufferfish",
+        "minecraft:suspicious_stew",
+        "minecraft:beetroot_soup",
+        "minecraft:mushroom_stew"
     ]
 }
