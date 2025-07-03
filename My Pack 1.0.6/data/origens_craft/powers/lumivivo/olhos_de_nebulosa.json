@@ -1,0 +1,36 @@
+{
+    "name": "Olhos de Nebulosa",
+    "description": "Sua visão perfura a escuridão, concedendo-lhe visão noturna permanente. No entanto, a luz direta do sol ofusca seus sentidos.",
+    "type": "origins:multiple",
+    "visao_noturna": {
+        "type": "origins:effect",
+        "effect": "minecraft:night_vision",
+        "amplifier": 0,
+        "duration": 400,
+        "is_ambient": true
+    },
+    "ofuscado": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 1,
+        "max_stacks": 1,
+        "duration_per_stack": 40,
+        "tick_rate": 20,
+        "effects": [
+            {
+                "effect": "minecraft:slowness",
+                "duration": 40,
+                "amplifier": 0,
+                "is_ambient": true
+            },
+            {
+                "effect": "minecraft:nausea",
+                "duration": 100,
+                "amplifier": 0,
+                "is_ambient": true
+            }
+        ],
+        "condition": {
+            "type": "origins:exposed_to_sun"
+        }
+    }
+}

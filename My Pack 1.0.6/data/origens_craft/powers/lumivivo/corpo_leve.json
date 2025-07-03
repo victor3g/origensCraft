@@ -1,0 +1,9 @@
+{
+    "name": "Corpo Leve",
+    "description": "Sua forma etérea te faz imune a danos de queda.",
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    }
+}
