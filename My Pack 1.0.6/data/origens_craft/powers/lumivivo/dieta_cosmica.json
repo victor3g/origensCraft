@@ -18,6 +18,10 @@
         "saturation_modifier": {
             "operation": "multiply_base",
             "value": -0.4
+        },
+        "condition": {
+            "type": "origins:random_chance",
+            "chance": 0.9
         }
     },
     "comida_magica": {

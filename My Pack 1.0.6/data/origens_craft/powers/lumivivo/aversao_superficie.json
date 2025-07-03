@@ -3,7 +3,7 @@
     "description": "Você se sente desconectado do mundo sob o céu aberto, quebrando blocos de pedra e terra 20% mais devagar. Essa penalidade some no subsolo.",
     "type": "origins:modify_break_speed",
     "block_condition": {
-        "type:":"origins:or",
+        "type":"origins:or",
         "conditions":[
             {"type": "origins:in_tag", "tag": "minecraft:base_stone_overworld"},
             {"type": "origins:in_tag", "tag": "minecraft:dirt"}
