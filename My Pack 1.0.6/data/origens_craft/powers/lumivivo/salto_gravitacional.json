@@ -12,6 +12,14 @@
                 "y": 0.4
             },
             {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:flame ~ ~ ~ 0.2 0.2 0.2 0.1 50 normal"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:soul_fire_flame ~ ~ ~ 0.2 0.2 0.2 0.05 30 normal"
+            },
+            {
                 "type": "origins:exhaust",
                 "amount": 2.0
             }
@@ -23,7 +31,5 @@
         "sprite_location": "origins:textures/gui/resource_bar.png",
         "bar_index": 1
     },
-    "key": {
-        "key": "key.origins.primary_active"
-    }
+    "key": "primary"
 }
