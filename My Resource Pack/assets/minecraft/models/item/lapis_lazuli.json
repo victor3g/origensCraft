@@ -6,8 +6,7 @@
     "overrides": [
         {
             "predicate": {
-                "eating": 1,
-                "eat": 0.35
+                "eating": 1
             },
             "model": "minecraft:item/lapis_lazuli_eating"
         }
