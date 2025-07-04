@@ -1,0 +1,11 @@
+{
+    "name": "Órbita Protetora",
+    "description": "Ao se agachar, você cria um campo de energia que bloqueia projéteis.",
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:projectile"
+    },
+    "condition": {
+        "type": "origins:sneaking"
+    }
+}

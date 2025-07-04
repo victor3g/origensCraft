@@ -1,0 +1,44 @@
+{
+    "name": "Forma Estelar",
+    "description": "Pressione [Sua Tecla] para se transformar em uma criatura de energia e ganhar a habilidade de voo por 30 segundos.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "power grant @s origins:creative_flight"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:base 0.5 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:totem_of_undying ~ ~ ~ 1 1 1 0.5 150"
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 600,
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:execute_command",
+                            "command": "power revoke @s origins:creative_flight"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "scale set pehkui:base 1.0 @s"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "cooldown": 1200,
+    "hud_render": {
+        "should_render": true
+    },
+    "key": "tertiary"
+}
