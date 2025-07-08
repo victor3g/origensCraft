@@ -1,0 +1,18 @@
+{
+    "name": "§bLúmen Estelar",
+    "description": "Criaturas feitas de pura energia estelar, que vagam entre as fendas do espaço e da realidade. Brilham nas trevas e ouvem o sussurro das constelações.",
+    "powers": [
+        "origens_craft:lumen/furia_da_supernova",
+        "origens_craft:lumen/salto_gravitacional",
+        "origens_craft:lumen/aura_cosmica",
+        "origens_craft:lumen/recarga_estelar",
+        "origens_craft:lumen/filho_da_noite",
+        "origens_craft:lumen/fall",
+        "origens_craft:lumen/vision"
+    ],
+    "icon": {
+        "item": "minecraft:nether_star"
+    },
+    "order": 10,
+    "impact": 3
+}

@@ -1,0 +1,50 @@
+{
+    "name": "Aura Cósmica",
+    "description": "Seu corpo estelar emana um brilho misterioso. No entanto, a luz direta do sol ofusca seus sentidos.",
+    "type": "origins:multiple",
+    "ofuscado": {
+        "condition": {
+            "type": "origins:exposed_to_sun"
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:slowness",
+                    "duration": 100,
+                    "amplifier": 0,
+                    "show_particles": false,
+                    "show_icon": true
+                },
+                {
+                    "effect": "minecraft:mining_fatigue",
+                    "duration": 100,
+                    "amplifier": 0,
+                    "show_particles": false,
+                    "show_icon": true
+                },
+                {
+                    "effect": "minecraft:darkness",
+                    "duration": 100,
+                    "amplifier": 0,
+                    "show_particles": false,
+                    "show_icon": true
+                }
+            ]
+        }
+    },
+    "brilho_estelar": {
+        "type": "origins:particle",
+        "particle": {
+            "type": "minecraft:dust",
+            "params": "0.6 0.1 1.0 1.0"
+        },
+        "frequency": 10,
+        "count": 1,
+        "speed": 0,
+        "offset_y": 1,
+        "visible_in_first_person": true
+    }
+}

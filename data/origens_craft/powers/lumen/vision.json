@@ -1,0 +1,31 @@
+{
+    "name": "Olhos de Nebulosa",
+    "description": "Sua visão perfura a escuridão, concedendo-lhe visão noturna permanente",
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:time_of_day",
+                "comparison": ">=",
+                "compare_to": 13000
+            },
+            {
+                "type": "origins:glowing"
+            }
+        ]
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 3,
+    "duration_per_stack": 100,
+    "tick_rate": 80,
+    "effects": [
+        {
+            "effect": "minecraft:night_vision",
+            "duration": 100,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ]
+}

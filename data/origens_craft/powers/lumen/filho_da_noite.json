@@ -1,0 +1,23 @@
+{
+    "name": "Filho da Noite",
+    "description": "A luz forte do sol te enfraquece. Você causa 50% menos dano durante o dia quando exposto ao céu.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:daytime"
+            },
+            {
+                "type": "origins:exposed_to_sky"
+            }
+        ]
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "multiply_base",
+        "value": -0.5
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

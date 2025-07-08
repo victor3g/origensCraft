@@ -1,0 +1,38 @@
+{
+    "name": "Recarga Estelar",
+    "description": "Sob o céu noturno, seu corpo cósmico se regenera e emite um brilho suave.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sky"
+            },
+            {
+                "type": "origins:time_of_day",
+                "comparison": ">=",
+                "compare_to": 13000
+            }
+        ]
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 3,
+    "duration_per_stack": 100,
+    "tick_rate": 80,
+    "effects": [
+        {
+            "effect": "minecraft:regeneration",
+            "duration": 100,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:glowing",
+            "duration": 100,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ]
+}

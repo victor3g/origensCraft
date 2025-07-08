@@ -1,0 +1,41 @@
+{
+    "name": "Fúria da Supernova",
+    "description": "Focaliza energia cósmica em uma área, invocando um fragmento estelar que cai dos céus e queima com fogo das estrelas.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "animate @s spell"
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.evoker.prepare_attack",
+                "volume": 1,
+                "pitch": 0.8
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:raycast",
+                    "distance": 48,
+                    "block": true,
+                    "entity": true,
+                    "shape_type": "visual",
+                    "fluid_handling": "none",
+                    "command_at_hit": "summon minecraft:dragon_fireball ~ ~25 ~ {ExplosionPower:4,Motion:[0.0,-2.5,0.0]}",
+                    "command_hit_offset": 0.1
+                },
+                "ticks": 20
+            }
+        ]
+    },
+    "cooldown": 500,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 5
+    },
+    "key": "primary"
+}
